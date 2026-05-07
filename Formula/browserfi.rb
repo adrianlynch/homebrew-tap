@@ -8,7 +8,7 @@ class Browserfi < Formula
   depends_on "node"
 
   def install
-    system "npm", "install", *std_npm_args
+    system "npm", "install", *std_npm_args.map { |arg| (arg == "--min-release-age=1") ? "--min-release-age=0" : arg }
     bin.install_symlink libexec.glob("bin/*")
   end
 
