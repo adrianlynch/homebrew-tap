@@ -1,8 +1,8 @@
 class Browserfi < Formula
   desc "Create and manage custom bundled browsers"
   homepage "https://github.com/adrianlynch/browserfi"
-  url "https://registry.npmjs.org/@adrianlynch/browserfi/-/browserfi-1.0.0.tgz"
-  sha256 "ffb23fe4158300c8f5faa3a908b7bf39c43b086ffd3e913584649c7522f40dc6"
+  url "https://registry.npmjs.org/@adrianlynch/browserfi/-/browserfi-1.0.1.tgz"
+  sha256 "c7bf777005bf30de06598d5f389e6f63b1e212336ce34049f00e26ae8ab980cc"
   license "MIT"
 
   depends_on "node"
